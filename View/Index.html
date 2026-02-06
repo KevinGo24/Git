@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,22 @@
     <link rel="stylesheet" href="/Style/Index.css">
 </head>
 <body>
-    
+    <div class="padre">
+        <h1>
+            Bienvenidos a nuestro sistema
+        </h1>
+        <div class="hijo">
+            <h2>Acceso al sistema </h2>
+            <h4> Ingrse su Ususario y Rol. </h4>
+            <div class="hijo_menor">
+                <h3>Uusuario</h3>
+                <input type="text" placeholder="Digite su usuario" class="Tbx" id="Tbx_users">
+                <h3>Rol</h3>
+                <input type="text" placeholder="Ej. Admin - Usuario - Diseño" class="Tbx" id="Tbx_rol">
+                <button class="Btn_ingreso" id="Btn_ingreso" onclick="Ingreso()">Bienvenidos</button>
+            </div>
+        </div>
+    </div>
 </body>
 <script src="/Logic/Index.js"></script>
 </html>
